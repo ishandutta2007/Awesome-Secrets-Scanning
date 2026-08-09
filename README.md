@@ -40,37 +40,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
-## SaaS/Hosted Platforms
-
-
-
-- **[GitGuardian](https://www.gitguardian.com/)**  
-
-  Leading secrets detection and remediation platform that monitors public and private repositories, provides real-time alerts, validity checks, and incident workflows for leaked credentials.
-
-
-
-- **[GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)**  
-
-  Native GitHub capability (with push protection) that detects known secret patterns and partners with providers for validity checks and automatic revocation where supported.
-
-
-
-- **[GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)**  
-
-  Built-in GitLab security feature that scans repositories and pipelines for secrets as part of the DevSecOps workflow.
-
-
-
-- **[SpectralOps](https://spectralops.io/)** (Check Point), **[Cycode](https://cycode.com/)**, **[Checkmarx Secrets](https://checkmarx.com/)**, **[SentinelOne PingSafe](https://www.sentinelone.com/)**, **[Apiiro](https://apiiro.com/)**  
-
-  Commercial application security and code-risk platforms that include secrets detection alongside broader ASPM, SCA, or supply-chain capabilities.
-
-
-
-- **[TruffleHog Enterprise](https://trufflesecurity.com/)** & **[Gitleaks commercial offerings](https://gitleaks.io/)**  
-
-  Enterprise/commercial versions of the leading open-source scanners that add centralized management, support, and additional features.
+| Product | Description | Pricing (Starting Paid Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[GitGuardian](https://www.gitguardian.com/)** | Leading secrets detection & remediation platform monitoring public/private repos with real-time alerts, validity checks, and incident workflows. | **Custom / Quote-based** (contact sales for >25 devs & Enterprise features) | **Free forever** for up to 25 contributing developers, capped at 500 historical scan detections and 10,000 API calls/month. |
+| **[GitHub Secret Scanning](https://docs.github.com/en/code-security/secret-scanning)** | Native GitHub secret scanning with push protection, secret pattern detection, and partner validity verification. | **$19/active committer/month** for private/internal repos (via GitHub Secret Protection / Advanced Security) | **Free forever** for all public repositories with unlimited secret scanning and push protection. |
+| **[GitLab Secret Detection](https://docs.gitlab.com/ee/user/application_security/secret_detection/)** | Built-in GitLab security feature scanning repositories and pipelines for secrets as part of DevSecOps workflows. | **$29/user/month** (Premium tier) / **$99/user/month** (Ultimate tier for security dashboards & MR widgets) | **Free forever** for basic secret detection scans & JSON report artifacts; **30-day free trial** available for GitLab Ultimate features. |
+| **[SpectralOps](https://spectralops.io/)** (Check Point CloudGuard) | Code security scanner inspecting secrets, infrastructure-as-code, and code risks across CI/CD and developer environments. | **Custom / Quote-based** (integrated into Check Point CloudGuard enterprise suite) | **Free forever** for up to 10 contributors and 10 repositories; **14-day free trial** available for CloudGuard platform evaluation. |
+| **[Cycode](https://cycode.com/)** | Complete ASPM & code security platform offering secret scanning, software supply chain security, and risk visibility. | **Custom / Quote-based** (billed annually per active developer count) | **14-day free trial** for platform evaluation; includes free open-source utilities via Cygives. |
+| **[Checkmarx Secrets](https://checkmarx.com/)** | Enterprise application security platform scanning source code, containers, and pipelines for hardcoded secrets. | **Custom / Quote-based** (billed per developer seat within Checkmarx One suite) | **14-day evaluation license** available upon request/approval via sales demo. |
+| **[SentinelOne PingSafe](https://www.sentinelone.com/)** | Cloud-native application protection platform (CNAPP) with built-in secret scanning and cloud vulnerability management. | **Custom / Quote-based** (licensed per cloud workload/asset via Singularity Cloud) | **30-day free trial** / POC available upon sales request for the Singularity Cloud platform. |
+| **[Apiiro](https://apiiro.com/)** | Deep code analysis & ASPM platform identifying secrets, design risks, and supply chain vulnerabilities. | **Custom / Quote-based** (annual contract required with 50-user minimum order quantity) | **14-day free trial** with no credit card required; free initial Software Risk Assessment. |
+| **[TruffleHog Enterprise](https://trufflesecurity.com/)** | Commercial version of TruffleHog adding centralized management dashboards, live credential verification, and multi-source scanning. | **Custom / Quote-based** (enterprise licensing per monitored developer) | **Free forever** for the open-source CLI engine; **14-day demo/POC trial** available upon request for Enterprise. |
+| **[Gitleaks Commercial](https://gitleaks.io/)** | Enterprise offering and organization CI key licensing for the widely adopted Gitleaks secret scanner. | **Custom / Quote-based** (commercial support & org licenses) | **Free forever** for open-source CLI scanner (MIT); free license key available for org CI/CD integrations. |
 
 
 
